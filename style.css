@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #0f222d;
+}
+
+.main {
+    width: 400px;
+}
+
+.numbers {
+    width: 50%;
+    float: left;
+}
+
+ul.numberButtons {
+    list-style: none;
+    display: flex;
+}
+
+ul.operandButtons {
+    list-style: none;
+}
