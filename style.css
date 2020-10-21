@@ -1,16 +1,71 @@
 html {
     height: 100%;
+    background-image: linear-gradient(#59c2a8, #c3e6dd);
+    background-repeat: no-repeat;
+    background-size: auto;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #0f222d;
 }
 
 .main {
-    width: 400px;
+    width: 350px;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.calculation {
+    background-color: #fff;
+    padding: 5px 5px 5px 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: 3px solid black;
+}
+
+.screen {
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+
+.numbersAndOperands {
+    height: 300px;
+    padding-top: 25px;
+    background-color: #474747;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+input[type="button"] {
+    font-size: 1.5em;
+    border: none;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 25px;
+    width: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="button"]:hover {
+    filter: brightness(0.6);
+}
+
+.operand {
+    background-color: coral;
 }
 
 .numbers {
     width: 50%;
     float: left;
+}
+
+.operands {
+    float: left;
+    padding-left: 25px;
 }
 
 ul.numberButtons {
